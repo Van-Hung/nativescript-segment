@@ -1,4 +1,4 @@
-import { Observable } from "tns-core-modules/data/observable";
+import { Observable } from '@nativescript/core';
 import { SegmentConfig, Segment } from "nativescript-segment";
 import { SEGMENT_KEY } from '../../../secret';
 
