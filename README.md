@@ -9,7 +9,7 @@ Largely based on this [repository](https://github.com/travtarr/nativescript-segm
 ## Installation
 
 ```
-tns plugin add nativescript-segment
+tns plugin add @van-hung/nativescript-segment
 ```
 
 For access to the native SDK type definitions, specify the definitions in your *references.d.ts*
