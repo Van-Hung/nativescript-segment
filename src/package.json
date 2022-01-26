@@ -1,7 +1,7 @@
 {
-	"name": "nativescript-segment",
-	"version": "1.0.4",
-	"description": "Your awesome NativeScript plugin.",
+	"name": "@van-hung/nativescript-segment",
+	"version": "1.1.0",
+	"description": "A NativeScript plugin that provides easy access to the native Segment SDKs.",
 	"main": "segment",
 	"typings": "index.d.ts",
 	"nativescript": {
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/rhanb/nativescript-segment.git"
+		"url": "https://github.com/Van-Hung/nativescript-segment.git"
 	},
 	"scripts": {
 		"tsc": "npm i && tsc",
@@ -39,22 +39,21 @@
 		"iOS"
 	],
 	"author": {
-		"name": "Aniel Jean-Baptiste",
-		"email": "aniel.jeanbaptiste@gmail.com"
+		"name": "Van Hung"
 	},
 	"bugs": {
-		"url": "https://github.com/rhanb/nativescript-segment/issues"
+		"url": "https://github.com/Van-Hung/nativescript-segment/issues"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/rhanb/nativescript-segment",
+	"homepage": "https://github.com/Van-Hung/nativescript-segment",
 	"readmeFilename": "README.md",
 	"devDependencies": {
-		"tns-core-modules": "^5.0.0",
-		"tns-platform-declarations": "^5.0.0",
-		"typescript": "~3.3.3",
-		"prompt": "^1.0.0",
+		"@nativescript/core": "~8.1.1",
+		"tns-platform-declarations": "^6.5.15",
+		"typescript": "4.3.5",
+		"prompt": "^1.2.1",
 		"rimraf": "^2.6.3",
-		"tslint": "^5.12.1",
+		"tslint": "^6.1.3",
 		"semver": "^5.6.0"
 	},
 	"dependencies": {},

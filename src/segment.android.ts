@@ -1,5 +1,5 @@
 import { SegmentConfig, SegmentTraits, SegmentOptions } from './segment.common';
-import * as app from 'tns-core-modules/application';
+import * as app from '@nativescript/core/application';
 
 const Analytics = com.segment.analytics.Analytics;
 const Traits = com.segment.analytics.Traits;
